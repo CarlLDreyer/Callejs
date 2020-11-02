@@ -1,7 +1,7 @@
-import Calle from './callejs/calle'
-import { PoopClicker } from './views/PoopClicker';
-import './main.scss'
+import Calle from './callejs/core/index'
+import { App } from './App';
+import './App.scss'
 
 new Calle({
-  component: PoopClicker,
+  component: App,
 }).$mount('#app')
